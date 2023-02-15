@@ -27,7 +27,6 @@ export default class GameSavingLoader {
 
 // const sav = new GameSavingLoader();
 // console.log(sav.load());
-
 // sav.load().then((saving) => {
 //   console.log(saving);
 // });
