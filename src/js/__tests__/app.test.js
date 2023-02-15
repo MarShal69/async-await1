@@ -15,14 +15,3 @@ test('тест сборки промисов', async (done) => {
   expect(result).toEqual(expected);
   done();
 });
-
-
-// test('тест сна ошибку', async () => {
-//   expect.assertions(1);
-//   try {
-//     const sav = new GameSavingLoader();
-//     await sav.load();
-//   } catch (e) {
-//     expect(e).toEqual('ошибка');
-//   }
-// });
